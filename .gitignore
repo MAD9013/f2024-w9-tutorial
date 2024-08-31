@@ -1,2 +1,6 @@
-.prettierrc
+# Ignores auto-generated Finder styling files
 .DS_Store
+
+# Ignores my planning and helper files
+outline.md
+.prettierrc
