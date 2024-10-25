@@ -4,9 +4,13 @@
   --color-primary: #23272e;
   --color-primary--light: #303641;
   --color-primary--dark: #21252c;
+  --color-secondary: #4aa092;
+  --color-secondary--light: #73cbbc;
+  --color-secondary--dark: #327469;
   --color-red: #d86972;
   --color-red--dark: #a94c54;
   --color-orange: #bb8b5e;
+  --color-orange--dark: #916b47;
   --color-green: #97c278;
   --color-green--medium: #bedfa5;
   --color-green--light: #c3e1ad;
@@ -15,6 +19,7 @@
   --color-blue--light: #8eb9dd;
   --color-blue--dark: #2c6593;
   --color-purple: #c678dd;
+  --color-purple--dark: #9c5bb0;
 
   /* Fonts */
   --font-primary: "Noto Sans", sans-serif;
@@ -1153,6 +1158,8 @@ h1 code {
   border: 0.25rem dashed #ccc;
   border-radius: 0.5rem;
   padding: 1rem;
+  list-style: none;
+  margin-block-end: 0;
 }
 
 /* Flex basics */

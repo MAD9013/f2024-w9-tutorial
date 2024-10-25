@@ -1,6 +1,6 @@
 .hero {
   min-height: 40vh;
-  padding: 3rem 0;
+  padding-block: 3rem;
   display: flex;
   align-items: end;
   background-color: #777;
@@ -17,8 +17,11 @@
 }
 
 .article__body {
-  padding-block-start: 3rem;
-  padding-block-end: 3rem;
+  padding-block: 3rem;
+
+  img {
+    width: 100%;
+  }
 }
 
 .article__footer {

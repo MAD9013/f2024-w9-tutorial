@@ -63,7 +63,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  /* container-type: inline-size; */
 }
 
 .flex .col {
@@ -85,7 +84,6 @@
 .grid {
   display: grid;
   gap: 1.5rem;
-  /* container-type: inline-size; */
 }
 
 .grid .col {
